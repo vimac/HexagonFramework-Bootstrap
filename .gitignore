@@ -1,0 +1,8 @@
+.buildpath
+.project
+.svn
+.settings
+*.lock
+tmp
+app/config/SelfConfig.php
+log/*
