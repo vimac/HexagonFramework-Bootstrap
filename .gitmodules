@@ -1,3 +1,3 @@
 [submodule "fk"]
 	path = fk
-	url = http://git.zjseek.com.cn/vimac/hexagonframework.git
+	url = https://github.com/vimac/HexagonFramework.git
