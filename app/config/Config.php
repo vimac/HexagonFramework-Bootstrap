@@ -52,5 +52,7 @@ class Config extends BaseConfig {
             'options' => [PDO::MYSQL_ATTR_INIT_COMMAND => 'set names "utf8"']
         ]
     ];
+    
+    
 
 }
