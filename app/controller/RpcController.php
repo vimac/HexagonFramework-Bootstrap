@@ -11,7 +11,6 @@ use \Yar_Server;
 class RpcController extends Controller implements ICustomAction {
     
     public function _doAction() {
-        ob_clean();
         $service = new Yar_Server(new TestService());
         $service->handle();
         return self::_ignoreFrameworkResult();
