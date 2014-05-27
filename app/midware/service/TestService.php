@@ -8,9 +8,14 @@ class TestService {
     
     use Logging;
     
-    public function test($param) {
-        self::_logInfo($param);
-        return 123;
+    /**
+     * 战斗吧
+     * 
+     * @param unknown $param
+     * @return number
+     */
+    public function demoMethodEcho($param) {
+        return $param;
     }
     
 }
